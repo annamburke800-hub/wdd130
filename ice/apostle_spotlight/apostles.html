@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostles Spotlights</title>
+    <style>
+        /* Insert styles here */
+        body{
+            background-color:#e8eced;
+            display:grid;
+            grid-template-columns: repeat(3,1fr);
+            align-items: center;
+        }
+        h1,h2{
+            font-family: arial;
+            text-align: center;
+            color: white;
+        }
+        #box{
+            background-image: url(images/christus.webp);
+            background-position: -150px;
+            /* background-repeat: no-repeat; */
+            background-size: 1200px 700px;
+            border: 7px solid black;
+            border-radius: 50px;
+            width: 1000px;
+            justify-self: center;
+            grid-column: 2;
+        }
+        img{
+            border: 10px solid white;
+            border-radius: 50%;   
+            object-fit: cover;   
+            background-position-y: top;      
+        }
+        img:hover{
+            border: 10px dashed white;
+        }
+        #quorum img{
+            width: 100px;
+            height: 100px;
+        }
+        #quorum{
+            margin: 0px 250px;
+        }
+        #presidency{
+            margin: 0px 250px;
+        }
+    </style>
+</head>
+<body>
+    <div id="box">
+        <h1>First Presidency</h1>
+        <div id = "presidency">
+            <img src = "images/eyring.webp" width="125px" height="125px" alt = "Henry B. Eyring">
+            <img src = "images/oaks.webp" width="150px" height="150px" alt = "Dallin H. Oaks">
+            <img src = "images/christofferson.webp" width="125px" height="125px" alt = "D. Todd Christofferson">
+        </div>
+        
+        <!-- pictures -->
+
+        <h2>Quorum of the Twelve Apostles</h2>
+        <div id = "quorum">
+            <img src="images/holland.webp" alt="Jeffrey R. Holland">
+            <img src="images/uchtdorf.webp" alt="Dieter F. uchtdorf">
+            <img src="images/bednar.webp" alt="David A. Bednar">
+            <img src="images/cook.webp" alt="Quentin L. Cook">
+            <br>
+            <img src="images/anderson.webp" alt="Neil L. Andersen">
+            <img src="images/rasband.webp" alt="Ronald A. Rasband">
+            <img src="images/stevenson.webp" alt="Gary E. Stevenson">
+            <img src="images/renlund.webp" alt="Dale G. Renlund">
+            <br>
+            <img src="images/gong.webp" alt="Gerrit W. Gong">
+            <img src="images/soares.webp" alt="Ulysses Soares">
+            <img src="images/kearon.webp" alt="Patrick Kearon">
+            <img src="images/causse.webp" alt="Gerald Causse">
+
+        </div>
+
+    </div>
+</body>
+</html>

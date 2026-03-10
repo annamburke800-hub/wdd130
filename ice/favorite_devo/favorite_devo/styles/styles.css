@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #fddfff, #a41e9f);
+  background-repeat: no-repeat; /* Just in case */
+  background-attachment: fixed;
+}
+
+.container {
+  text-align: center;
+}
+
+.header {
+  padding: 20px 0;
+}
+
+.header-image {
+  background-image: url('../images/icenter.png'); /* Replace with your image */
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+
+}
+
+.header-image h1 {
+  margin: 0;
+  line-height: 0.9;
+    font-size: 3.5em;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px black;
+  background: #00000055;
+}
+
+.content-box {
+  background-color: white;
+  margin: 30px auto;
+  width: 90%;
+  max-width: 900px;
+  padding: 40px;
+  box-shadow: 5px 5px 20px #44013F;
+  min-height: 400px;
+}
+
+
+table.blueTable {
+  border: 1px solid #A41E9F;
+  background-color: #ffd3fc;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+table.blueTable td, table.blueTable th {
+  border: 1px solid #AA22A2;
+  padding: 3px 2px;
+}
+table.blueTable tbody td {
+  font-size: 13px;
+}
+table.blueTable tr:nth-child(even) {
+  background: #F58CF3;
+}
+table.blueTable thead {
+  background: #DE06D5;
+  background: -moz-linear-gradient(top, #e644df 0%, #e11fd9 66%, #DE06D5 100%);
+  background: -webkit-linear-gradient(top, #e644df 0%, #e11fd9 66%, #DE06D5 100%);
+  background: linear-gradient(to bottom, #e644df 0%, #e11fd9 66%, #DE06D5 100%);
+  border-bottom: 2px solid #44013F;
+}
+table.blueTable thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FDDFFF;
+  border-left: 2px solid #F2CAF5;
+}
+table.blueTable thead th:first-child {
+  border-left: none;
+}
+
+table.blueTable tfoot td {
+  font-size: 14px;
+}
+table.blueTable tfoot .links {
+  text-align: right;
+}
+table.blueTable tfoot .links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+
+form{
+  /* background-color: #F58CF3; */
+  background: linear-gradient(to bottom, #f58cf3, #a41e9f);
+
+  max-width: 200px;
+  margin: 50px auto;
+  justify-content: left;
+  border:#44013F solid 2px;
+  border-radius: 20px
+}
+
+#years{
+  margin:7px;
+}
+
+#submit{
+  margin:2px 7px 7px 7px;
+}

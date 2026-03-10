@@ -1,0 +1,48 @@
+div{
+    display:none
+}
+
+
+@media (min-width: 2561px){
+    #w-2561{
+        display: revert;
+    }
+}
+
+@media (max-width: 2560px) and (min-width:2400px){
+    #w-2560{
+        display: revert;
+    }
+}
+
+@media (max-width: 2400px) and (min-width:2240px){
+    #w-2400{
+        display: revert;
+    }
+}
+
+@media (max-width: 2240px) and (min-width:2080px){
+    #w-2240{
+        display: revert;
+    }
+}
+
+
+@media (max-width: 960px) and (min-width:800px){
+    #w-960{
+        display: revert;
+    }
+}
+
+
+@media (max-width: 320px) and (min-width:160px){
+    #w-320{
+        display: revert;
+    }
+}
+
+@media (max-width: 160px){
+    #w-160{
+        display: revert;
+    }
+}
