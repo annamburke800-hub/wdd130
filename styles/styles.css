@@ -55,6 +55,7 @@ p{
 }
 #intro p{
     grid-column: 2;
+    text-indent: 25px;
 }
 
 #client-report{
@@ -63,10 +64,6 @@ p{
     width: fit-content;
 }
 
-#intro p {
-    text-indent: 25px;
-
-}
 
 #main-content{
     grid-column: 2;
