@@ -1,4 +1,5 @@
-/* COLORS:
+/* Stylesheet by Anna Burke
+    COLORS:
     Teal: #007383
     Purple: #362138
     Grey: #d6d6d6
@@ -27,6 +28,12 @@ h1{
     grid-row: 1;
 
 }
+h2{
+    grid-column: 2;
+    font-family: "Cosmo Corner";
+    color:#007373;
+    margin-bottom: -5px;
+}
 h3{
     font-family :"Cosmo Corner";
     font-size: 25px;
@@ -48,6 +55,20 @@ p{
 }
 #intro p{
     grid-column: 2;
+}
+
+#client-report{
+    grid-column: 2;
+    margin: -3px 5px 5px 0px;
+}
+
+#client-report-text{
+    grid-column: 2;
+    padding-bottom: 35px;
+}
+#client-report-text p {
+    text-indent: 25px;
+
 }
 
 #main-content{
